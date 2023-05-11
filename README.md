@@ -2,7 +2,7 @@
 Tame your Pulsar (Atom) editor's tree view by making it obey the "Hidden On Startup" setting!
 
 ### Why?
-It is a well-known bug that Atom, and its fork Pulsar, doesn't properly respect the `Hidden On Startup` setting of its tree view.
+It is a well-known bug that Atom, and its fork Pulsar, don't properly respect the `Hidden On Startup` setting of its tree view.
 
 I have used a lot of bodge-fixes for this in the past, but every now and then they stopped working due to updates. With this repository I'm trying to maintain a working code snippet for Pulsar's `init.coffee` which will make the `Hidden On Startup` setting work the way it should.
 
