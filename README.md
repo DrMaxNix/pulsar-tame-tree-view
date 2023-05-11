@@ -62,3 +62,5 @@ atom.workspace.onDidOpen ({item}) ->
 Now you can configure whether you want the tree-view to be hidden on startup in the settings of the `tree-view` package:
 
 `Edit > Preferences > Packages > tree-view > Hidden On Startup`
+
+> Successfully tested using Pulsar v1.104.0
