@@ -68,7 +68,7 @@ tryTreeViewCloseIntervalCount = 0
 
 
 ## EXECUTE CODE WHEN WORKSPACE IS OPENED ##
-atom.workspace.onDidOpen({item}) ->
+atom.workspace.onDidOpen ({item}) ->
 	# make sure the code doesn't run twice
 	if codeRanOnce then return
 	
